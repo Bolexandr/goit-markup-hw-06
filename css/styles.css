@@ -97,7 +97,7 @@ img {
 	margin-block-start: 0;
 	margin-block-end: 0;
 
-	margin-left: 93px;
+	
 }
 
 .site-nav .item:not(:last-child),
@@ -123,6 +123,8 @@ img {
 	line-height: 1, 19;
 	letter-spacing: 0.03em;
 	color: #000000;
+
+	margin-right: 93px;
 }
 
 
@@ -317,11 +319,6 @@ img {
 	fill: var(--accent-color);
 }
 
-/* .modal-form {}
-
-.label-form {}
-
-.label-name {} */
 
 
 .label-phone {
@@ -907,10 +904,11 @@ footer>.container {
 
 .footer-adress {
 	width: 220px;
+	margin-right: 77px;
 }
 
 .footer-media {
-	margin-left: 77px;
+	
 }
 
 .footer-media>h2 {
@@ -933,12 +931,14 @@ footer>.container {
 
 
 .box-footer-form {
-	margin-left: 93px;
+	display: block;
+	margin-left: auto;
+	
 }
 
 .footer-form {
 	display: flex;
-
+flex-wrap: wrap;
 }
 
 .btn-footer-form {
@@ -965,6 +965,7 @@ footer>.container {
 
 .input-footer-form {
 	width: 358px;
+	
 	height: 50px;
 	background-color: rgba(0, 0, 0, 0.15);
 	border: 1px solid rgba(255, 255, 255, 0.3);
