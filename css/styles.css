@@ -246,6 +246,7 @@ img {
 	background-color: var(--accent-color);
 	color: #F5F4FA;
 
+	font-weight: 700;
 	display: block;
 	min-width: 200px;
 	height: 50px;
@@ -256,9 +257,10 @@ img {
 }
 
 .button-hero:hover,
-.button-hero:focus {
+.button-hero:focus,
+.btn-footer-form:hover,
+.btn-footer-form,:focus{
 	background-color: #188CE8;
-
 }
 
 /* backdropp modal window */
@@ -381,10 +383,9 @@ transition: border-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .input-form-area:focus , 
-.comment-form-area:focus{
+.comment-form-area:focus,
+.input-footer-form:focus{
 outline: 1px solid transparent ;
-
-
 border-color: var(--accent-color) ;
 }
 .input-form-area:focus +.icon-input-area{
@@ -397,9 +398,12 @@ fill: var(--accent-color) ;
 	transform: translateY(-55%);
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-	
 }
 
+.button-form{
+
+margin-top: 30px; 
+}
 
 .form-text-style {
 	font-weight: 400;
@@ -411,12 +415,17 @@ fill: var(--accent-color) ;
 
 	color: #757575;
 }
+.form-link-text-style{
+	text-decoration-line: underline;
+	color: var(--accent-color);
+}
+
 
 .contact-form-checkbox-desc {
 	font-size: 14px;
 	display: flex;
 	align-items: center;
-	margin-bottom: 40px;
+	margin-top: 20px;
 
 	font-size: 14px;
 line-height: 1.71;
