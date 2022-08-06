@@ -97,7 +97,7 @@ img {
 	margin-block-start: 0;
 	margin-block-end: 0;
 
-	
+
 }
 
 .site-nav .item:not(:last-child),
@@ -156,7 +156,7 @@ img {
 	height: 4px;
 	border-radius: 2px;
 	background-color: var(--accent-color);
-	
+
 	left: 0;
 
 
@@ -259,7 +259,7 @@ img {
 .button-hero:hover,
 .button-hero:focus,
 .btn-footer-form:hover,
-.btn-footer-form:focus{
+.btn-footer-form:focus {
 	background-color: #188CE8;
 }
 
@@ -329,24 +329,26 @@ img {
 }
 
 .label-post {
-		display: block;
-	margin-top: 10px;}
+	display: block;
+	margin-top: 10px;
+}
 
-	.label-coment{
-		display: block;
-margin-top: 10px;
-	}
-	.comment-form-area{
-		width: 100%;
-		height: 120px;
-		padding: 12px 16px;
+.label-coment {
+	display: block;
+	margin-top: 10px;
+}
 
-		border: 1px solid rgba(33, 33, 33, 0.2);
-		border-radius: 4px;
-			resize: none;
-			transition: border-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+.comment-form-area {
+	width: 100%;
+	height: 120px;
+	padding: 12px 16px;
 
-	}
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+	resize: none;
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 
 .title-form {
 	font-weight: 700;
@@ -355,7 +357,7 @@ margin-top: 10px;
 	text-align: center;
 	letter-spacing: 0.03em;
 
-	color:var(--title-text-color);
+	color: var(--title-text-color);
 
 	margin-bottom: 12px;
 }
@@ -378,19 +380,22 @@ margin-top: 10px;
 	padding-right: 2%;
 
 	border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
-transition: border-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+	border-radius: 4px;
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.input-form-area:focus , 
+
+.input-form-area:focus,
 .comment-form-area:focus,
-.input-footer-form:focus{
-outline: 1px solid transparent ;
-border-color: var(--accent-color) ;
+.input-footer-form:focus {
+	outline: 1px solid transparent;
+	border-color: var(--accent-color);
 }
-.input-form-area:focus +.icon-input-area{
-fill: var(--accent-color) ;
+
+.input-form-area:focus+.icon-input-area {
+	fill: var(--accent-color);
 }
+
 .icon-input-area {
 	position: absolute;
 	top: 50%;
@@ -400,9 +405,9 @@ fill: var(--accent-color) ;
 
 }
 
-.button-form{
+.button-form {
 
-margin-top: 30px; 
+	margin-top: 30px;
 }
 
 .form-text-style {
@@ -415,7 +420,8 @@ margin-top: 30px;
 
 	color: #757575;
 }
-.form-link-text-style{
+
+.form-link-text-style {
 	text-decoration-line: underline;
 	color: var(--accent-color);
 }
@@ -428,66 +434,68 @@ margin-top: 30px;
 	margin-top: 20px;
 
 	font-size: 14px;
-line-height: 1.71;
-color: #757575;
+	line-height: 1.71;
+	color: #757575;
 
-margin-left: 13px;
-padding-left: 23px; 
-position: relative;
+	margin-left: 13px;
+	padding-left: 23px;
+	position: relative;
 }
-.icon-check-form-free{
+
+.icon-check-form-free {
 	position: absolute;
 
-top: 50%;
-left: 1px;
+	top: 50%;
+	left: 1px;
 
-transform: translateY(-55%);
-transform-origin: center center;
-fill:#212121 ;
+	transform: translateY(-55%);
+	transform-origin: center center;
+	fill: #212121;
+
+}
+
+.icon-check-form {
+
+	position: absolute;
+
+	top: 50%;
+	left: 1px;
+
+	transform: translateY(-55%);
+	transform-origin: center center;
+	fill: transparent;
+
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.icon-check-form{
-	
-position: absolute;
-
-top: 50%;
-left:1px ;
-
-transform: translateY(-55%);
-transform-origin: center center;
-fill: transparent ;
-
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-.icon-check-form-free-focus{
+.icon-check-form-free-focus {
 	position: absolute;
 	transform-origin: center center;
-top: 50%;
-left: -2px;
+	top: 50%;
+	left: -2px;
 
-transform: translateY(-53%);
-fill: transparent ;
+	transform: translateY(-53%);
+	fill: transparent;
 
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.contact-form-checkbox:checked +.contact-form-checkbox-desc>span>.icon-check-form,
-.contact-form-checkbox:checked +.contact-form-checkbox-desc>span>.icon-check-form-free{
-fill: var(--accent-color) ;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.contact-form-checkbox:checked:focus +.contact-form-checkbox-desc>span>.icon-check-form-free-focus,
-.contact-form-checkbox:focus +.contact-form-checkbox-desc>span>.icon-check-form-free-focus,
-.contact-form-checkbox:focus-visible +.contact-form-checkbox-desc>span>.icon-check-form-free-focus {
+.contact-form-checkbox:checked+.contact-form-checkbox-desc>span>.icon-check-form,
+.contact-form-checkbox:checked+.contact-form-checkbox-desc>span>.icon-check-form-free {
+	fill: var(--accent-color);
+
+}
+
+.contact-form-checkbox:checked:focus+.contact-form-checkbox-desc>span>.icon-check-form-free-focus,
+.contact-form-checkbox:focus+.contact-form-checkbox-desc>span>.icon-check-form-free-focus,
+.contact-form-checkbox:focus-visible+.contact-form-checkbox-desc>span>.icon-check-form-free-focus {
 	fill: #000000;
 }
 
-.contact-form-checkbox:checked +.contact-form-checkbox-desc>span>.icon-check-form-free-focus{
-	fill: transparent ;
+.contact-form-checkbox:checked+.contact-form-checkbox-desc>span>.icon-check-form-free-focus {
+	fill: transparent;
 }
 
 /* Приимущества */
@@ -917,9 +925,7 @@ footer>.container {
 	margin-right: 77px;
 }
 
-.footer-media {
-	
-}
+.footer-media {}
 
 .footer-media>h2 {
 	font-weight: 700;
@@ -943,12 +949,12 @@ footer>.container {
 .box-footer-form {
 	display: block;
 	margin-left: auto;
-	
+
 }
 
 .footer-form {
 	display: flex;
-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .btn-footer-form {
@@ -972,12 +978,12 @@ flex-wrap: wrap;
 	line-height: 1.9;
 	color: #ffffff;
 
-	transition: background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-footer-form {
 	width: 358px;
-	
+
 	height: 50px;
 	background-color: rgba(0, 0, 0, 0.15);
 	border: 1px solid rgba(255, 255, 255, 0.3);
@@ -989,7 +995,7 @@ flex-wrap: wrap;
 	color: rgba(255, 255, 255, 0.6);
 	padding-left: 16px;
 
-	transition: border-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .label-footer-form {
@@ -999,9 +1005,11 @@ flex-wrap: wrap;
 	font-size: 14px;
 	line-height: 1.2;
 	color: #ffffff;
+
+	text-transform: uppercase;
 }
 
-.label-footer-form {}
+
 
 .icon-footer-form {
 	margin-left: 10px;
